@@ -1,15 +1,18 @@
 # -*- coding: utf-8 -*-
 
-"""Classes  top-level script.
+"""classes  top-level script.
 
 Created on 28 Jan 2013
 
 @author: juliotrigo
 """
 
-from . import module1 
-from . import module2
+from examples.classes import module1 
+from examples.classes import module2
 
+def start_printer():
+    """Prints something."""
+    print("start module!")
 
 if __name__ == '__main__':
     print('object doc: ' + object.__doc__)
