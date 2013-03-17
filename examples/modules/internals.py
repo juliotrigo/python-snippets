@@ -2,10 +2,6 @@
 
 """Exposing module internals.
 
-Created on 17 Feb 2013
-
-@author: juliotrigo
-
 __builtins__
 __file__
 __package__

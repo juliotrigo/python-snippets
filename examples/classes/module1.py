@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""module1 documentation
-
-Created on 28 Jan 2013
-
-@author: juliotrigo
-"""
+"""module1 documentation"""
 
 class Class1(object):
     

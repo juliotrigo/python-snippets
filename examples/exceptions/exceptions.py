@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Exceptions.
-
-Created on 24 Feb 2013
-
-@author: juliotrigo
-"""
+"""Exceptions."""
 
 class MyException(Exception):
     

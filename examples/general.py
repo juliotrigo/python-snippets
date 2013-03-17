@@ -2,10 +2,6 @@
 
 """General statements.
 
-Created on 9 Feb 2013
-
-@author: juliotrigo
-
 The from statement is an assignment to names in the importer's scope
 (a name-copy operation, not a name aliasing).
 The implications of this are the same as for all assignments in Python.

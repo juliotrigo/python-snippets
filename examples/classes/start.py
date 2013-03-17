@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""classes  top-level script.
-
-Created on 28 Jan 2013
-
-@author: juliotrigo
-"""
+"""classes  top-level script."""
 
 from examples.classes import module1 
 from examples.classes import module2

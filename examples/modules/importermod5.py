@@ -2,10 +2,6 @@
 
 """Imports attributes from other modules.
 
-Created on 17 Feb 2013
-
-@author: juliotrigo
-
 This module cannot be executed as a script (__name__ = __main__):
 ValueError: Attempted relative import in non-package
 

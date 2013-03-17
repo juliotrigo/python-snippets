@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""module5 documentation.
-
-Created on 17 Feb 2013
-
-@author: juliotrigo
-"""
+"""module5 documentation."""
 
 x = "Initial value module5."
 

@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""module4 documentation.
-
-Created on 11 Feb 2013
-
-@author: juliotrigo
-"""
+"""module4 documentation."""
 
 def _not_public():
     """Tests _X and __all__"""

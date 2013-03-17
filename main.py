@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Top level script.
-
-Created on 9 Feb 2013
-
-@author: juliotrigo
-"""
+"""Top level script."""
 
 import examples.classes.module2
 

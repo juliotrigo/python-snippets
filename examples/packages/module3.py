@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""sibling module.
-
-Created on 18 Nov 2012
-
-@author: juliotrigo
-"""
+"""sibling module."""
 
 #from __future__ import print_function, absolute_import, division, with_statement
 #

@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Python Search Path examples.
-
-Created on 17 Feb 2013
-
-@author: juliotrigo
-"""
+"""Python Search Path examples."""
 
 import sys
 

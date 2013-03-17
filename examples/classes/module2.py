@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""module2 documentation
-
-Created on 28 Jan 2013
-
-@author: juliotrigo
-"""
+"""module2 documentation"""
 
 from . import module1
 
