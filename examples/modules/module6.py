@@ -4,6 +4,7 @@
 
 y = "Initial value module6."
 
+
 def printer6():
     """Prints variable y."""
     print(y)
