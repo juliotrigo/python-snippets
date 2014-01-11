@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Imports attributes from other modules.
-
-Created on 17 Feb 2013
-
-@author: juliotrigo
-"""
+"""Imports attributes from other modules."""
 
 from .module5 import x, printer5
 from . import module6

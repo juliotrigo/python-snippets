@@ -2,13 +2,10 @@
 
 """General statements.
 
-Created on 9 Feb 2013
-
-@author: juliotrigo
-
 The from statement is an assignment to names in the importer's scope
 (a name-copy operation, not a name aliasing).
 The implications of this are the same as for all assignments in Python.
+
 """
 
 import examples.packages.module3 as module3
@@ -24,7 +21,7 @@ if __name__ == '__main__':
     module3.module1_access()
     module4._not_public()
     print("********************")
-    
+
     print("\n***** modules *****")
     print("--importermod5.actions()--")
     importermod5.actions()
@@ -46,12 +43,12 @@ if __name__ == '__main__':
     print(module6)
     print(module6.__dict__["y"])
     print(module6.__dict__["printer6"])
-    
+
     print("...some modifications...")
     importermod5.__dict__["module5"].x = "Other value 5"
     importermod5.__dict__["y"] = "Other value 6"
     importermod5.__dict__["printer6"] = None
-    
+
     print("...importermod5...")
     print(importermod5.__dict__["module5"])
     print(importermod5.__dict__["y"])

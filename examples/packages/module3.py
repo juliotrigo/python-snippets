@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""sibling module.
-
-Created on 18 Nov 2012
-
-@author: juliotrigo
-"""
+"""sibling module."""
 
 #from __future__ import print_function, absolute_import, division, with_statement
 #
@@ -24,17 +19,20 @@ import sys
 
 import examples.classes.module1
 
+
 def module1_access():
     """Tests intra-package references"""
-    c1 =  examples.classes.module1.Class1()
+    c1 = examples.classes.module1.Class1()
     c1.method1()
-    
+
+
 def _not_public():
     """Tests _X and __all__"""
     print("Not public method.")
 
+
 class MyClass(object):
-    
+
     """My Class documentation"""
 
     def __init__(self, param):
