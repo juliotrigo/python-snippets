@@ -1,4 +1,4 @@
-python_snippets
+python-snippets
 ===============
 
 A collection of Python example code.
