@@ -19,7 +19,7 @@ import examples.modules.importermod6 as importermod6
 if __name__ == '__main__':
     print("\n***** packages *****")
     module3.module1_access()
-    module4._not_public()
+    module4._not_public()                               # pylint: disable=protected-access
     print("********************")
 
     print("\n***** modules *****")

@@ -10,6 +10,8 @@ class MyException(Exception):
     def __init__(self, value):
         """Assigns the text error."""
         self.value = value
+        super().__init__()      # This does the same thing as:
+                                # super(MyException, self).__init__()
 
     def __str__(self):
         """Prints the error."""
