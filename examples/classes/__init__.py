@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""Python classes examples"""
+"""Python classes examples."""
 
 #__all__ = ["start"]

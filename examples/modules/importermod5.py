@@ -2,20 +2,20 @@
 
 """Imports attributes from other modules.
 
-This module cannot be executed as a script (__name__ = __main__):
-ValueError: Attempted relative import in non-package
+    This module cannot be executed as a script (__name__ = __main__):
+    ValueError: Attempted relative import in non-package
 
-http://www.python.org/dev/peps/pep-0328/
-PEP 328 -- Imports: Multi-Line and Absolute/Relative
+    http://www.python.org/dev/peps/pep-0328/
+    PEP 328 -- Imports: Multi-Line and Absolute/Relative
 
-Relative Imports and __name__
+    Relative Imports and __name__
 
-Relative imports use a module's __name__ attribute to determine that module's
-position in the package hierarchy.
-If the module's name does not contain any package information
-(e.g. it is set to '__main__') then relative imports are resolved as
-if the module were a top level module, regardless of where the module is actually
-located on the file system.
+    Relative imports use a module's __name__ attribute to determine that module's
+    position in the package hierarchy.
+    If the module's name does not contain any package information
+    (e.g. it is set to '__main__') then relative imports are resolved as
+    if the module were a top level module, regardless of where the module is actually
+    located on the file system.
 
 """
 

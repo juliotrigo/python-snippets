@@ -2,18 +2,18 @@
 
 """unittest module behaviour.
 
-Usage:
-$ python -m unittest discover
-$ python -m unittest
-$ python -m unittest -v
-$ python -m unittest examples.tests.test_unittest
-$ python -m unittest examples.tests.test_unittest.UnittestTestCase
-$ python -m unittest examples.tests.test_unittest.UnittestSkippedTestCase
-
-Using nose:
-$ nosetests
-$ nosetests --verbosity=3
-$ nosetests --verbosity=3 --with-coverage
+    Usage:
+    $ python -m unittest discover
+    $ python -m unittest
+    $ python -m unittest -v
+    $ python -m unittest examples.tests.test_unittest
+    $ python -m unittest examples.tests.test_unittest.UnittestTestCase
+    $ python -m unittest examples.tests.test_unittest.UnittestSkippedTestCase
+    
+    Using nose:
+    $ nosetests
+    $ nosetests --verbosity=3
+    $ nosetests --verbosity=3 --with-coverage
 
 """
 

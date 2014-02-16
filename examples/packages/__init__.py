@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
 
-"""Python packages examples"""
+"""Python packages examples."""
 
 __all__ = ['module3']
