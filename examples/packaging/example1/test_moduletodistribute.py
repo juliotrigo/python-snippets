@@ -6,6 +6,7 @@ import unittest
 
 from .moduletodistribute import Greeting
 
+
 class GreetingTestCase(unittest.TestCase):
 
     """Greeting class test case."""

@@ -24,6 +24,7 @@ class Class1(object):
 
     '__slots__'
     '__bases__'
+
     """
 
     classattr1 = 'a1'
@@ -31,25 +32,25 @@ class Class1(object):
     __classattr3 = 'a3'
 
     def __init__(self, name='name1', surname='surname1'):
-        """Constructor Class 1 documentation"""
+        """Constructor Class 1 documentation."""
         self.name = name
         self.surname = surname
         self._attr_private = 1
         self.__attr_mangling = 2
 
     def method1(self):
-        """Method 1 documentation"""
+        """Method 1 documentation."""
         print('Class 1, Method 1.')
         print('name: ' + self.name)
         print('surname: ' + self.surname)
 
     def _method2(self):
-        """Method 2 documentation"""
+        """Method 2 documentation."""
         print('Class 1, Method 2.')
         print(self._attr_private)
 
     def __method3(self):
-        """Method 3 documentation"""
+        """Method 3 documentation."""
         print('Class 1, Method 3.')
         print(self.__attr_mangling)
 
