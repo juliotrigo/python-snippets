@@ -40,3 +40,4 @@ nosetests.xml
 *.nja
 __pycache__
 .settings
+.DS_Store
